@@ -1,0 +1,46 @@
+/* SECTION 1*/
+
+
+
+/* SECTION 2 - 6*/
+.main-container{
+  background-image: url("/assets/images/bg1.jpeg");
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.left-div{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.left-upper-div{
+  flex: 3;
+ 
+
+}
+
+.left-lower-div{
+  flex: 1;
+  padding: 10%;
+ 
+
+}
+
+.inner-left-lower-div{
+  border-left: 0.5rem solid #FF7941;
+  padding: 5%;
+  max-height: 100%;
+}
+
+.right-div{
+  flex: 3;
+ 
+}
