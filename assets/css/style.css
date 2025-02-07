@@ -1,3 +1,26 @@
+/* FONT */
+@font-face {
+  font-family: Montaga ;
+  src: url("../fonts/Montaga/Montaga-Regular.ttf");
+}
+@font-face {
+  font-family: Playfair ;
+  src: url("../fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf");
+}
+
+
+
+.montaga{
+  font-family:  'Montaga', serif;
+  font-weight: 400;
+  
+}
+.playfair{
+  font-family: 'Playfair' ;
+
+}
+
+
 /* SECTION 1*/
 
 
@@ -15,7 +38,7 @@
 
 
 .left-div{
-  flex: 1;
+  flex: 2;
   display: flex;
   flex-direction: column;
   
@@ -23,15 +46,21 @@
 
 .left-upper-div{
   flex: 3;
- 
-
 }
 
 .left-lower-div{
   flex: 1;
   padding: 10%;
- 
 
+}
+.name2{
+  color: white;
+  font-size: 2rem;
+
+}
+
+.title2{
+  color: #b6b6b6;
 }
 
 .inner-left-lower-div{
@@ -41,6 +70,43 @@
 }
 
 .right-div{
-  flex: 3;
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
  
 }
+
+.right-upper-div{
+  flex: 3;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+
+.right-upper-item{
+  font-size: 6rem;
+  color: white;
+  margin-bottom: 3%;
+}
+.right-upper-item:hover{
+  font-style: italic;
+  transform: translateX(10px);
+  cursor: pointer;
+}
+
+.right-lower-div{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  
+}
+.right-lower-item{
+  color: white;
+  font-style: italic;
+  letter-spacing: 6px;
+  font-size: 1.3rem;
+  font-weight: 100;
+}
+
