@@ -65,7 +65,7 @@
 
 .inner-left-lower-div{
   border-left: 0.5rem solid #FF7941;
-  padding: 5%;
+  padding: 15% 5%;
   max-height: 100%;
 }
 
@@ -88,7 +88,7 @@
 .right-upper-item{
   font-size: 6rem;
   color: white;
-  margin-bottom: 3%;
+  margin-bottom: 2%;
 }
 .right-upper-item:hover{
   font-style: italic;
