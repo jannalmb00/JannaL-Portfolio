@@ -7,6 +7,14 @@
   font-family: Playfair ;
   src: url("../fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf");
 }
+@font-face {
+  font-family: Play ;
+  src: url("../fonts/Play/Play-Regular.ttf");
+}
+@font-face {
+  font-family: PlayBold ;
+  src: url("../fonts/Play/Play-Bold.ttf");
+}
 
 
 
@@ -19,6 +27,27 @@
   font-family: 'Playfair' ;
 
 }
+.play{
+  font-family: 'Play';
+ 
+}
+.play-bold{
+  font-family: 'PlayBold';
+ 
+}
+
+/*categories */
+.school{
+  background-color: #A14343;
+  border: 2px solid  #A14343;
+
+}
+.colab{
+  background-color: #BA9E30;
+  border: 2px solid  #BA9E30;
+
+}
+
 
 
 /* SECTION 1*/
@@ -77,11 +106,11 @@
   display: flex;
   gap: 8%;
 }
-.icon-div:visited,
-.icon-div a{ 
-  color: #B3B3B3;
+a:visited,
+ a{ 
+  color: #ffffff;
 }
-.icon-div a:hover{
+ a:hover{
   color: #ae995d;
 }
 
@@ -92,7 +121,7 @@
 }
 
 .right-div{
-  flex: 4;
+  flex: 5;
   display: flex;
   flex-direction: column;
   padding: 2%;
@@ -136,11 +165,64 @@
 #section3{
   display: block;
 }
-#section3 .right-div{
+#section3 .right-upper-div{
+  flex: 1;
+ 
+}
+
+#section3 .right-lower-div{
   flex: 4;
   display: flex;
   flex-direction: column;
-  padding: 2%;
+  padding: 2% 1%;
+  overflow-y: auto;
+  scrollbar-width: none;
+
+}
+
+#section3 .right-lower-item{
+  width: 95%;
+  height: 50%;
+  padding: 3%;
+  background-color: rgb(255, 255, 255, 0.1);
+  backdrop-filter: blur(2px);
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  margin-bottom: 2%; 
+  display: flex;
+  
+}
+.project-left-div{
+  flex: 3;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.project-right-div{
+  flex: 1;
+  padding: 1%;
+  background-color: #ae995d;
+}
+.project-title{
+  font-size: 1.5rem;
+ 
+}
+.project-categories{
+  display: flex;
+  flex-direction: row;
+  gap: 2%;
+}
+.project-category{ 
+  padding: 1%;  
+  border-radius: 10px;
+  width: fit-content;
+  font-size: 0.9rem;
+}
+.project-description{
+  font-size: 1.1rem;
 }
 
 
