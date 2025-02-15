@@ -1,0 +1,1 @@
+define("ROOT", "http://localhost/JannaL-Portfolio/");
