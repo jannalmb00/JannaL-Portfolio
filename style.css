@@ -170,6 +170,11 @@ a:visited,
   cursor: pointer;
 }
 
+.pt-page-moveToTopEasing {
+	-webkit-animation: moveToTop .7s ease-in-out both;
+	animation: moveToTop .7s ease-in-out both;
+}
+
 
 /* SECTION 1*/
 
@@ -177,9 +182,6 @@ a:visited,
 
 /*----------- SECTION 2 - 6-------*/
 /*----SECTION 2-----*/
-#section2{
-  display: block;
-}
 
 .right-div{
   flex: 5;
@@ -217,9 +219,6 @@ a:visited,
 
 /*---------Section3 3-6------*/
 
-#section3{
-  display: none;
-}
 #section3 .right-upper-div,
 #section4 .right-upper-div,
 #section5 .right-upper-div,
@@ -243,9 +242,7 @@ a:visited,
 
 
 /*SECTION4 */
-#section4{
-  display: none;
-}
+
 #section4 .right-lower-div{
   display: flex;
   flex-wrap:  wrap-reverse;
@@ -287,10 +284,7 @@ a:visited,
  
 }
 /*SECTION5 */
-#section5 {
-  display: none;
-  
-}
+
 #section5 .right-upper-div{
   flex: 1;
 }
