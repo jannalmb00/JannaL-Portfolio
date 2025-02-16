@@ -76,8 +76,21 @@
 .collab{
   background-color: #BA9E30;
   border: 2px solid  #BA9E30;
+}
+.personal{
+  background-color: #BA9E30;
+  border: 2px solid  #BA9E30;
+}
+.done{
+  background-color: #A14343;
+  border: 2px solid  #A14343;
 
 }
+.ongoing{
+  background-color: #BA9E30;
+  border: 2px solid  #BA9E30;
+}
+
 
 /*------------ UNIVERSAL------------- */
 #section2,
