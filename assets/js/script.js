@@ -1,8 +1,8 @@
 $(document).ready(function(){
   function toggleSection(sectionID, isShow){
       if(isShow){
-          $(sectionID).addClass("active").fadeIn(500);
-          $(".section").not(sectionID).removeClass("active").fadeOut(300);
+          $(sectionID).addClass("active moveToBottomEasing").fadeIn(200);
+          $(".section").not(sectionID).removeClass("active").fadeOut(200);
       }else{
         $(sectionID).addClass("active").fadeIn(500);
       }

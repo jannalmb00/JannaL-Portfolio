@@ -67,13 +67,13 @@
   margin: 2%;
 }
 
-/*categories */
+/*****tag******* */
 .school{
   background-color: #A14343;
   border: 2px solid  #A14343;
 
 }
-.colab{
+.collab{
   background-color: #BA9E30;
   border: 2px solid  #BA9E30;
 
@@ -85,6 +85,11 @@
 #section4,
 #section5{
   display: none;
+}
+
+.pt-page-moveToBottomEasing {
+	-webkit-animation: moveToBottom .7s ease-in-out both;
+	animation: moveToBottom .7s ease-in-out both;
 }
 
 /*--- SECTION 2 AND 6--------------*/
@@ -181,6 +186,17 @@ a:visited,
 	animation: moveToTop .7s ease-in-out both;
 }
 
+.tech-stack{
+  display: flex;
+  gap: 1%;
+}
+
+.tech-stack-item{
+  background-color:rgba(182, 182, 182, 0.5);
+  padding: 1% 2%;
+  border-radius: 10px;
+  color: rgb(250, 250, 250);
+}
 
 /* SECTION 1*/
 
@@ -355,6 +371,17 @@ a:visited,
 }
 .project-description{
   font-size: 1.1rem;
+}
+
+
+/* Keyframe animations for moving from bottom */
+@-webkit-keyframes moveToBottom {
+	from { }
+	to { -webkit-transform: translateY(100%); }
+}
+@keyframes moveToBottom {
+	from { }
+	to { -webkit-transform: translateY(100%); transform: translateY(100%); }
 }
 
 
