@@ -308,4 +308,49 @@ a:visited,
 }
 
 
+#section3 .right-lower-item{
+  width: 95%;
+  height: 50%;
+  padding: 3%;
+  background-color: rgb(255, 255, 255, 0.1);
+  backdrop-filter: blur(2px);
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  margin-bottom: 2%; 
+  display: flex;
+  
+}
+.project-left-div{
+  flex: 3;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.project-right-div{
+  flex: 1;
+  padding: 1%;
+  background-color: #ae995d;
+}
+.project-title{
+  font-size: 1.5rem;
+ 
+}
+.project-categories{
+  display: flex;
+  flex-direction: row;
+  gap: 2%;
+}
+.project-category{ 
+  padding: 1%;  
+  border-radius: 10px;
+  width: fit-content;
+  font-size: 0.9rem;
+}
+.project-description{
+  font-size: 1.1rem;
+}
+
 
