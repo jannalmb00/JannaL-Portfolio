@@ -223,6 +223,10 @@ a:visited,
 #section4 .right-upper-div,
 #section5 .right-upper-div,
 #section6 .right-upper-div{
+#section3{
+  display: block;
+}
+#section3 .right-upper-div{
   flex: 1;
  
 }
