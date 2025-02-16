@@ -1,13 +1,27 @@
 $(document).ready(function(){
-  $("#project-btn").click(function() {  
-    window.location.href = "projects.html"; 
+  function toggleSection(sectionID, isShow){
+      if(isShow){
+          $(sectionID).addClass("active").fadeIn(500);
+          $(".section").not(sectionID).removeClass("active").fadeOut(300);
+      }else{
+        $(sectionID).addClass("active").fadeIn(500);
+      }
+  }
+
+  // Click event for the div   
+  $("#welcome-btn").on("click", function(){
+    toggleSection("#section1", true);
+  })
+  $(".home-btn").on("click", function(){
+    toggleSection("#section2", true);
   });
-  $("#skills-btn").click(function(){
-    window.location.href= "skills.html";
-  })
-
-
-  $("#home-btn").click(function(){
-    window.location.href="navigation.html";
-  })
+  $("#project-btn").on("click", function(){
+    toggleSection("#section3", true);
+  });
+  $("#skills-btn").on("click", function(){
+    toggleSection("#section4", true);
+  });
+  $("#update-btn").on("click", function(){
+    toggleSection("#section5", true);
+  });
 });

@@ -80,6 +80,12 @@
 }
 
 /*------------ UNIVERSAL------------- */
+#section2,
+#section3,
+#section4,
+#section5{
+  display: none;
+}
 
 /*--- SECTION 2 AND 6--------------*/
 .main-container{
@@ -219,13 +225,7 @@ a:visited,
 
 /*---------Section3 3-6------*/
 
-#section3 .right-upper-div,
-#section4 .right-upper-div,
-#section5 .right-upper-div,
-#section6 .right-upper-div{
-#section3{
-  display: block;
-}
+
 #section3 .right-upper-div{
   flex: 1;
  
