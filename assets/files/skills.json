@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Java",
+    "image": "./assets/images/logos/java.svg",
+    "percent": 60,
+    "links": ["https://github.com/jannalmb00/Library-Management"]
+  },
+  {
+    "name": "C#",
+    "image": "./assets/images/logos/java.svg",
+    "percent": 50,
+    "links": ["https://github.com/jannalmb00/Library-Management"]
+  },
+  {
+    "name": "Dart",
+    "image": "./assets/images/logos/java.svg",
+    "percent": 50,
+    "links": ["https://github.com/jannalmb00/Library-Management"]
+  },
+  {
+    "name": "PHP",
+    "image": "./assets/images/logos/java.svg",
+    "percent": 50,
+    "links": ["https://github.com/jannalmb00/Library-Management"]
+  },
+  {
+    "name": "Javascript",
+    "image": "./assets/images/logos/java.svg",
+    "percent": 90,
+    "links": ["https://github.com/jannalmb00/Library-Management"]
+  },
+  {
+    "name": "Python",
+    "image": "./assets/images/logos/java.svg",
+    "percent": 50,
+    "links": ["https://github.com/jannalmb00/Library-Management"]
+  },
+  {
+    "name": "SQL",
+    "image": "./assets/images/logos/java.svg",
+    "percent": 50,
+    "links": ["https://github.com/jannalmb00/Library-Management"]
+  },
+  {
+    "name": "Flutter",
+    "image": "./assets/images/logos/java.svg",
+    "percent": 50,
+    "links": ["https://github.com/jannalmb00/Library-Management"]
+  },
+  {
+    "name": "React",
+    "image": "./assets/images/logos/java.svg",
+    "percent": 30,
+    "links": ["https://github.com/jannalmb00/Library-Management"]
+  }
+]

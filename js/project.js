@@ -8,8 +8,8 @@ $(document).ready(function(){
     "ongoing" : "In Progress"
   }
  
-  //get JSON
-  $.getJSON("../assets/files/project.json", function(data){
+  //get JSON 
+  $.getJSON("../assets/files/projects.json", function(data){
     let container = $("#section3 .right-lower-div"); //container
     container.empty();
 
