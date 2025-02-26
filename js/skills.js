@@ -50,7 +50,7 @@ $.getJSON("../assets/files/skills.json", function(data){
     container.append(element);
     $('.item-progress-bar').each(function() {
       const progress = $(this).data('progress'); // Get the data-progress attribute
-      $(this).css('background', `linear-gradient(to right, rgba(123, 104, 96, 0.7) ${progress}%, rgba(243, 92, 27, 0.5) ${progress}%)`);
+      $(this).css('background', `linear-gradient(to right, rgba(184, 116, 76, 0.7) ${progress}%, rgba(243, 92, 27, 0.5) ${progress}%)`);
     });
    
   })

@@ -41,7 +41,7 @@ $(document).ready(function(){
               <span class="title2 play">Technology Stack:</span>
               <div class="tech-stack"> 
               ${project.stacks.map(stack =>
-                `<div class="tech-stack-item">
+                `<div class="tech-stack-item play">
                 ${stack || "None"}
                 </div>`
                 ).join("")}
