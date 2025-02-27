@@ -279,11 +279,19 @@ a:visited,
 }
 
 /*SECTION4 */
+#section4 .right-upper-div{
+  flex: 0;
+}
 
 #section4 .right-lower-div{
-  display: flex;
-  flex-wrap:  wrap-reverse;
-  overflow: auto;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 2%;
+  align-items: center;
+  justify-items: center;
+}
+#section4 .right-lower-item{
+  width: 70%;
 }
 
 .skill-title{
@@ -327,8 +335,10 @@ a:visited,
 }
 #section5 .right-lower-item{
   height: 40%;
-  overflow: scroll;
-  padding: 2%;
+  padding: 3%;
+}
+#section5 .tagInfos{
+  margin: 1% 0;
 }
 
 
