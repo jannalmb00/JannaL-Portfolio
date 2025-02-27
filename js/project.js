@@ -8,11 +8,6 @@ $(document).ready(function(){
     "done": "Complete",
     "ongoing" : "In Progress"
   }
- 
-  //get JSON 
-  $.getJSON("../assets/files/projects.json", function(data){
-    let container = $("#section3 .right-lower-div"); //container
-    container.empty();
 
     $.each(data,function(index,project){
       let element = `
@@ -58,6 +53,6 @@ $(document).ready(function(){
       
     })
 
-  });
+
 
 });

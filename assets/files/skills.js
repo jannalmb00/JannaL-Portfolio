@@ -1,4 +1,4 @@
-[
+const data = [
   {
     "name": "Java",
     "image": "./assets/images/logos/java.svg",

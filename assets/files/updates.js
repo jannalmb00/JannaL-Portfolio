@@ -1,4 +1,4 @@
-[
+const data = [
   {
     "title": "ConUHacks 9 at Concordia University",
     "link" : "",
