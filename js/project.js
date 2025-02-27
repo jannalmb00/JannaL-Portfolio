@@ -1,4 +1,5 @@
 $(document).ready(function(){
+  alert("janna");
   //tag text
   const tagText = {
     "school" : "School Project",
