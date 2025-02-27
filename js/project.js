@@ -9,7 +9,7 @@ $(document).ready(function(){
     "ongoing" : "In Progress"
   }
 
-    $.each(data,function(index,project){
+    $.each(projectData,function(index,project){
       let element = `
 
           <div class="right-lower-item ">
