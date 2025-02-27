@@ -1,5 +1,30 @@
+const projectData = [
+  {
+    "title":"Website Portfolio",
+    "tags": ["personal", "ongoing"],
+    "link": "https://github.com/jannalmb00/JannaL-Portfolio",
+    "description": "Created a responsive personal portfolio to showcase web development projects and skills with custom styling and interactivity.",
+    "stacks": ["HTML", "CSS", "jQuery"]
+  },
+  {
+    "title":"Nail Salon Website",
+    "tags": ["school", "collab", "done"],
+    "link": "https://github.com/jannalmb00/SysDevOrange",
+    "description": "Developed a responsive nail salon website using Bootstrap and PHP, integrating third-party APIs like Instagram, Google Maps, and Square. Built backend systems for bookings, customer management, and database integration, working closely with the client to align with business requirements.",
+    "stacks": ["Bootstrap", "HTML", "CSS", "JavaScript", "PHP", "APIs", "phpMyAdmin"]
+  },
+  {
+    "title":"STRIVE (TO-DO APP)",
+    "tags": ["school", "collab", "done"],
+    "link": "https://github.com/jannalmb00/Strive-Project.git",
+    "description": "Developed a cross-platform To-Do app using Flutter and Dart, with Firebase for real-time data syncing. Implemented real-time collaboration for task management and integrated APIs for motivational quotes and Google Maps to find nearby cafes and libraries.",
+    "stacks": ["Flutter", "Dart", "Firebase", "APIs"]
+  }
+  
+]
+
 $(document).ready(function(){
-  alert("janna");
+
   //tag text
   const tagText = {
     "school" : "School Project",
@@ -8,6 +33,9 @@ $(document).ready(function(){
     "done": "Complete",
     "ongoing" : "In Progress"
   }
+
+  let container = $("#section3 .right-lower-div");
+  container.empty();
 
     $.each(projectData,function(index,project){
       let element = `
@@ -57,27 +85,3 @@ $(document).ready(function(){
 
 });
 
-const projectData = [
-  {
-    "title":"Website Portfolio",
-    "tags": ["personal", "ongoing"],
-    "link": "https://github.com/jannalmb00/JannaL-Portfolio",
-    "description": "Created a responsive personal portfolio to showcase web development projects and skills with custom styling and interactivity.",
-    "stacks": ["HTML", "CSS", "jQuery"]
-  },
-  {
-    "title":"Nail Salon Website",
-    "tags": ["school", "collab", "done"],
-    "link": "https://github.com/jannalmb00/SysDevOrange",
-    "description": "Developed a responsive nail salon website using Bootstrap and PHP, integrating third-party APIs like Instagram, Google Maps, and Square. Built backend systems for bookings, customer management, and database integration, working closely with the client to align with business requirements.",
-    "stacks": ["Bootstrap", "HTML", "CSS", "JavaScript", "PHP", "APIs", "phpMyAdmin"]
-  },
-  {
-    "title":"STRIVE (TO-DO APP)",
-    "tags": ["school", "collab", "done"],
-    "link": "https://github.com/jannalmb00/Strive-Project.git",
-    "description": "Developed a cross-platform To-Do app using Flutter and Dart, with Firebase for real-time data syncing. Implemented real-time collaboration for task management and integrated APIs for motivational quotes and Google Maps to find nearby cafes and libraries.",
-    "stacks": ["Flutter", "Dart", "Firebase", "APIs"]
-  }
-  
-]
