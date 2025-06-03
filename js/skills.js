@@ -61,20 +61,19 @@ const skillsData = [
 ]
 
 $("document").ready(function(){
-//alert(hi);
-  const masteryText = {
-    10: "Just Started - Exploring Basics",
-    20: "Improvement - Building Foundations",
-    30: "Making Progress - Core Concepts",
-    40: "On Track - Strengthening Skills",
-    50: "Halfway - Gaining Confidence",
-    60: "Momentum - Applying Knowledge",
-    70: "Solid Progress - Real-World Practice",
-    80: "Almost There - Mastering Techniques",
-    85: "Close - Refining Skills",
-    90: "Nearing Completion - Advanced Challenges",
-    95: "Almost Done - Polishing Mastery",
-    100: "Mastered - Ready to Teach"
+const masteryText = {
+  10: "Getting Started – Beginning the Journey",
+  20: "Exploring – Building a Basic Understanding",
+  30: "Learning – Grasping Core Ideas",
+  40: "Growing – Gaining Comfort with Concepts",
+  50: "Progressing – Steady Improvement",
+  60: "Developing – Applying What You've Learned",
+  70: "Advancing – Strengthening Your Skills",
+  80: "Nearly There – Deepening Your Understanding",
+  85: "Refining – Working on the Details",
+  90: "Approaching Mastery – Staying Consistent",
+  95: "Finishing Touches – Reviewing and Reflecting",
+  100: "Confident – Comfortable Sharing with Others"
 }
 
 
@@ -112,7 +111,7 @@ $("document").ready(function(){
     container.append(element);
     $('.item-progress-bar').each(function() {
       const progress = $(this).data('progress'); // Get the data-progress attribute
-      $(this).css('background', `linear-gradient(to right, rgba(184, 116, 76, 0.7) ${progress}%, rgba(243, 92, 27, 0.5) ${progress}%)`);
+      $(this).css('background', `linear-gradient(to right, rgba(246, 115, 39, 0.79) ${progress}%, rgba(243, 92, 27, 0.5) ${progress}%)`);
     });
    
   })
